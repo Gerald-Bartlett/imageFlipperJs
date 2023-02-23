@@ -1,0 +1,235 @@
+
+   body {
+    margin-top: 0px;
+    margin-left: 48px;
+    margin-right: 20px;        
+    background-image: url("/images/canada-map.jpg");  
+    height: 600px;
+    width:1600px; 
+    background-position: center ; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-attachment: fixed;
+   
+  } 
+
+    button {
+        padding:10px 10px;
+        margin:1px;          
+        color: black; 
+        font-weight: bold;          
+        border-radius: 5px;
+        border-color: aliceblue;
+        border-width: 10px;
+        outline:none;
+        cursor:pointer
+        
+    }
+    
+
+    
+    li {
+    float: left;
+    display: inline;
+    }
+
+    a {
+    display: block;
+    padding: 8px;       
+    }
+    li {
+        display: inline;
+        }
+
+    .Alberta{
+       background-color: rgba(144, 238, 144, 0.892);  
+       height: auto;
+       width: auto;         
+    }
+
+    .BC{
+        background-color:lightblue;
+       
+    }
+    .Manitoba{
+        background-color: rgba(204, 50, 124, 0.816);
+    }
+    .Newbrunswick{
+        background-color:rgba(205, 117, 63, 0.947);
+    }
+    .NFLD{
+        background-color:rgb(255, 195, 185);
+        
+    }
+    .NovaScotia{
+        background-color:rgba(153, 205, 50, 0.719);
+    }
+    .NWT {
+       background-color: rgba(153, 205, 50, 0.224)
+    }
+    .Nunavut{
+        background-color:rgba(176, 197, 222, 0.755);
+    }
+    .Ontario{
+        background-color:pink;
+    }
+    .PEI{
+        background-color:rgb(240,230,140);
+    }
+    .Quebec{
+        background-color:rgba(255, 217, 0, 0.697);
+    }
+    .Saskatchewan{
+        background-color:rgb(255, 187, 0);
+    }
+    .Yukon{
+        background-color:rgb(255, 247, 0);
+    }
+    .Quebec{
+        background-color:rgba(255, 217, 0, 0.697);
+    }
+    .Map{
+        background-color:rgb(255, 0, 0);       
+        color:white;
+    }
+    div {
+        display:flex;
+        justify-content: center;
+    }
+    .footer {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: auto;
+        max-width: 50vw;
+        padding-top: 40px;
+        font-size: 15px;
+        color: #fff;
+        }
+
+        
+    
+        /* On screens that are 992px wide or less */
+@media screen and (max-width: 1200px) {
+    .footer {
+        position: absolute;
+      font-size: 12px;
+      color: white;
+    }
+  }
+     
+   /* On screens that are 600px wide or less */
+@media screen and (max-width: 600px) {
+    .footer {
+        position: absolute;
+      font-size: 9px;
+      color: white;
+    }
+  }
+  
+     /* On screens that are 1200px wide or less */
+@media screen and (max-width: 1200px) {
+    .allbuttons {
+      position: absolute;
+      font-size: 12px;
+      color: white;
+    }
+  }
+     /* On screens that are 1024px wide or less */
+@media screen and (max-width: 1024px) {
+    .allbuttons {
+      position: absolute;
+      font-size: 10px;
+      color: white;
+    }
+  }
+       /* On screens that are 768px wide or less */
+@media screen and (max-width: 768px) {
+    .allbuttons {
+      position: absolute;
+      font-size: 8px;
+      color: white;
+    }
+  }
+
+/* On screens that are 480px wide or less */
+@media screen and (max-width: 480px) {
+.allbuttons {
+    position: absolute;
+    font-size: 6px;
+    color: white;
+}
+}
+
+   /* On screens that are 1200px wide or less */
+@media screen and (max-width: 1200px) {
+    button {
+        padding:6px 6px;
+        margin:2px;          
+        color: black; 
+        font-size: 14px;          
+        font-weight: bold;          
+        border-radius: 3px;
+        border-color: aliceblue;
+        border-width: 5px;
+        outline:none;
+        cursor:pointer
+        
+    }
+  }
+
+   /* On screens that are 1024px wide or less */
+@media screen and (max-width: 1024px) {
+    button {
+        padding:5px 5px;
+        margin:1.5px;          
+        color: black; 
+        font-size: 12px;       
+        font-weight: bold;          
+        border-radius: 2px;
+        border-color: aliceblue;
+        border-width: 4px;
+        outline:none;
+        cursor:pointer
+        
+    }
+  }
+  
+
+   /* On screens that are 1200px wide or less */
+@media screen and (max-width: 768px) {
+    button {
+        padding:4px 4px;
+        margin:1px;          
+        color: black; 
+        font-size: 10px;   
+        font-weight: bold;          
+        border-radius: 1.5px;
+        border-color: aliceblue;
+        border-width: 3px;
+        outline:none;
+        cursor:pointer
+        
+    }
+}
+  
+  /* On screens that are 480px wide or less */
+@media screen and (max-width: 480px) {
+    button {
+        padding:4px 4px;
+        margin:1px;          
+        color: black; 
+        font-size: 8px;  
+        font-weight: bold;          
+        border-radius: 1px;
+        border-color: aliceblue;
+        border-width: 2px;
+        outline:none;
+        cursor:pointer
+        
+    }
+  }
+  
+  
+  
