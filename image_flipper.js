@@ -49,10 +49,11 @@ myFunction12 = () => {
 }
 myFunction13 = () => {           
     document.body.style.backgroundImage = "url('images/Saskatchewan.jpg')";
-    document.body.style.backgroundColor = "yellow";
+    document.body.style.backgroundColor = "rgb(255, 187, 0)";
 }
 myFunction14 = () => {           
     document.body.style.backgroundImage = "url('images/Yukon.jpg')";
+     document.body.style.backgroundColor = "rgb(255, 247, 0)";
 }
 
 myFunction8 = () => {           
